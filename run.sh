@@ -1,0 +1,1 @@
+docker rm -f todoApp && docker build -t todo:v2 . && docker run --name todoApp -dp 3000:3000 todo:v2 && docker ps
